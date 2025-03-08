@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>>Φόρμα Αίτησης</title>
+</head>
+    <body class="p-6 bg-gray-100">
+      <div class="max-w-4xl mx-auto bg-white p-6 shadow-md rounded-md">
+         <h2 class="text-xl font-semibold border-b pb-2 mb-4 text-gray-400">Προσωπικά Στοιχεία</h2>
+
+        <div class="grid grid-cols-3 gap-4">
+          <input type="text" placeholder="ΑΦΜ:" class="border p-2 rounded w-full">
+          <input type="text" placeholder="Όνομα:" class="border p-2 rounded w-full">
+          <input type="text" placeholder="Επώνυμο:" class="border p-2 rounded w-full">
+          <input type="text" placeholder="Όνομα Πατρός:" class="border p-2 rounded w-full">
+          <input type="text" placeholder="Όνομα Μητρός:" class="border p-2 rounded w-full">
+          <input type="date" placeholder="Ημερομηνία Γέννησης:" class="border p-2 rounded w-full">
+          <select class="border p-2 rounded w-full">
+            <option>Άρρεν</option>
+            <option>Θήλυ</option>
+          </select>
+        </div>
+
+        <div class="grid grid-cols-2 gap-6">
+
+          <div class="mt-4">
+            <input type="text" placeholder="ΑΜΚΑ:" class="mb-4 border p-2 rounded w-full">
+      
+          </div>
+
+          <div class="mt-4">
+            <button class="bg-blue-500 text-white px-4 py-2 rounded">Προβολή</button>
+            <span class="text-gray-700">AMKA.pdf</span>
+            <button class="text-red-500">✖</button>
+          </div>
+
+          <div class="mt-4">
+            <input type="text" placeholder="Αρ. Ταυτότητας ή Διαβατηρίου:" class="mb-4 border p-2 rounded w-full">
+          </div>
+                  
+          <div class="mt-4">
+              <button class="bg-blue-500 text-white px-4 py-2 rounded">Προβολή</button>
+              <span class="text-gray-700">ΤΑΥΤΟΤΗΤΑ.pdf</span>
+              <button class="text-red-500">✖</button>
+          </div>
+
+        </div>
+
+      <div class="grid grid-cols-2 gap-3">
+
+          <div class="mt-2">
+            <label class="block mb-1" >Εκπλήρωση Στρατιωτικών Υποχρεώσεων</label>
+            <select class="border p-2 rounded max-w-4xl">
+              <option>ΝΑΙ</option>
+              <option>ΟΧΙ</option>
+            </select>
+          </div>
+
+          <div class="my-auto ">
+            <button class="bg-blue-500 text-white px-4 py-2 rounded">Προβολή</button>
+            <span class="text-gray-700 ">ΣΤΡΑΤΟΛΟΓΙΚΗ ΚΑΤΑΣΤΑΣΗ.pdf</span>
+            <button class="text-red-500">✖</button>
+          </div>
+
+          <div class="mt-4">
+            <label class="block mb-1">Είστε πολίτης κράτους μέλους της ΕΕ ή Βορειοηπειρώτης...</label>
+            <select class="border p-2 rounded max-w-4xl">
+                <option>ΟΧΙ</option>
+                <option>ΝΑΙ</option>
+            </select>
+          </div>
+
+          <div class="mt-4">
+            <button class="mt-6 bg-green-500 text-white px-6 py-2 rounded">Επισύναψη</button>
+            <span class="text-gray-700">Ονομα Αρχειου</span>
+          </div>
+
+      </div>
+
+      
+    </div>
+</body>
+</html>
